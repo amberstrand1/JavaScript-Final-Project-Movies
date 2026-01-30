@@ -1,6 +1,6 @@
-// API_KEY = "ab612e22";
+// API_KEY = "4a6fb701";
 
-//  url = `http://www.omdbapi.com/?apikey=ab612e22&i=tt1285016`;
+//  url = `http://www.omdbapi.com/?i=tt3896198&apikey=4a6fb701`;
 
 const searchInput = document.getElementById("search");
 const resultsList = document.getElementById("results");
@@ -27,7 +27,7 @@ searchInput.addEventListener("input", () => {
 });
 
 async function fetchMovies(searchTerm) {
-  const apiKey = "ab612e22";
+  const apiKey = "4a6fb701";
   const url = `https://www.omdbapi.com/?apikey=${apiKey}&s=${searchTerm}`;
 
   console.log("API URL:", url)
@@ -74,7 +74,7 @@ function displayResults(movies) {
     poster.src =
       movie.Poster !== "N/A"
         ? movie.Poster
-        : "https://wallpaperaccess.com/full/3658919.jpg";
+        : "https://via.placeholder.com/150x225?text=No+Image";
     poster.alt = movie.Title;
 
     const title = document.createElement("h3");
