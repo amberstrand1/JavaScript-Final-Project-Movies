@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="java.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/119e7d00ec.js" crossorigin="anonymous"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+    </style>
+  </head>
+  <body>
+    <section id="landing">
+      <div class="navbar__links">
+        <div class="link__wrapper">
+          <figure class="nav__logo">
+            <img src="3658919.jpg" class="img" />
+          </figure>
+          <button class="nav__btn">Sign In</button>
+        </div>
+      </div>
+      <div class="navbar"></div>
+      <section id="browser">
+        <div class="container">
+          <div class="row">
+            <div class="browser__wrapper">
+              <h1 class="browser__title">Browse our Selection</h1>
+              <div class="input__wrapper">
+                <input
+                  type="text"
+                  id="search"
+                  class="browser__input"
+                  placeholder="Search Titles"
+                />
+              </div>
+              <select id="filter">
+                <option value="" disabled selected>Sort</option>
+                <option value="A_TO_Z">A to Z</option>
+                <option value="Z_TO_A">Z to A</option>
+                <option value="RELEASE_ASC">Older</option>
+                <option value="RELEASE_DSC">Newer</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="results__display">
+        <div class="container">
+          <div class="row">
+              <div id="results"></div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="footer__links--wrapper">
+            <figure class="nav__logo">
+              <img src="3658919.jpg" class="img" />
+            </figure>
+          </div>
+          <div class="footer__links">
+            <li class="footer__link">
+              <a href="#" class="footer__link--anchor">Home</a>
+            </li>
+            <li class="footer__link">
+              <a href="#" class="footer__link--anchor">Help Center</a>
+            </li>
+            <li class="footer__link">
+              <a href="#" class="footer__link--anchor">Legal</a>
+            </li>
+            <li class="footer__link">
+              <a href="#" class="footer__link--anchor">Terms of Use</a>
+            </li>
+            <li class="footer__link">
+              <a href="#" class="footer__link--anchor">Contact Us</a>
+            </li>
+          </div>
+          <div class="footer__copyright--wrapper">
+          <h4 class="copyright">&copy;Movies 2026</h4>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
