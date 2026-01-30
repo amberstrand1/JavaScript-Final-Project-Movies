@@ -62,7 +62,8 @@
 
 .nav__btn:hover {
     transform: scale(1.04);
-    background-color: grey;
+    background-color: rgba(255, 255, 255, 0.808);
+    color: black;
 }
 
 /* BROWSE */
@@ -96,7 +97,7 @@
     padding: 0 16px;
     border-radius: 12px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    background-color: rgb(223, 222, 220);
+    background-color: rgba(255, 255, 255, 0.945);
     font-size: 16px;
     cursor: pointer;
     letter-spacing: 1.15px;

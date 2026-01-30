@@ -28,7 +28,7 @@ searchInput.addEventListener("input", () => {
 
 async function fetchMovies(searchTerm) {
   const apiKey = "4a6fb701";
-  const url = `https://www.omdbapi.com/?apikey=${apiKey}&s=${searchTerm}`;
+  const url = `https://www.omdbapi.com/?apikey=tt3896198${apiKey}&s=${searchTerm}`;
 
   console.log("API URL:", url)
 
